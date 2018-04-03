@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === 'development') {
   baseUrl = '/api/'
   imgBaseUrl = 'http://cangdu.org:8001/img/'
 } else if (process.env.NODE_ENV === 'production') {
-  baseUrl = 'http://mstest.nicigo.com:9099/'
+  baseUrl = 'http://cangdu.org:8001/'
   imgBaseUrl = 'http://cangdu.org:8001/img/'
 }
 
